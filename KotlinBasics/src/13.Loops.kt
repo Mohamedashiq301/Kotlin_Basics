@@ -29,5 +29,12 @@ fun main(){
         println(number)
     }
     println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")
-    
+    for (index in list.indices){
+        println(list[index])
+    }
+    println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")
+    for ((index,value) in list.withIndex()){
+        println(index)
+        println(value)
+    }
 }
